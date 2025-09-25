@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native';
 import ColorChangerApp from './ColorChangerApp';
 import CounterApp from './CounterApp';
 import ChatBox from './ChatBox';
-import Comment from './Comment'
+import Comment from './CommentInput'
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -12,7 +12,7 @@ export default function App() {
       <ColorChangerApp/>
       <CounterApp/>
       <ChatBox/>
-      <Comment/>
+      <CommentInput/>
     </SafeAreaView>
   );
 }
